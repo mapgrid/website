@@ -1,0 +1,18 @@
+{
+    "name": "mapgrid-website",
+    "version": 2,
+    "builds": [
+        { "src": "packages/frontend/package.json", "use": "@now/static-build" }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/packages/frontend/$1"
+        }
+    ],
+    "build": {
+        "env": {
+            "NODE_ENV": "production"
+        }
+    }
+}

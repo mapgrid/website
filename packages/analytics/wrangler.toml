@@ -1,0 +1,6 @@
+name = "analytics"
+type = "javascript"
+workers_dev = true
+kv-namespaces = [
+     { binding = "ANALYTICS", id = "9e70f4062cfa431db9408fc1a971a946" }
+]

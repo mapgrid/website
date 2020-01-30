@@ -1,0 +1,36 @@
+import replace from '@rollup/plugin-replace'
+import commonjs from '@rollup/plugin-commonjs'
+import resolve from '@rollup/plugin-node-resolve'
+import svelte from 'rollup-plugin-svelte'
+import sveltePreprocess from 'svelte-preprocess'
+import livereload from 'rollup-plugin-livereload'
+import { terser } from 'rollup-plugin-terser'
+
+const prod = process.env.NODE_ENV === 'production'
+
+export default {
+    input: 'src/index.js',
+    output: {
+        file: 'public/bundle.js',
+        sourcemap: true,
+        format: 'iife',
+    },
+    plugins: [
+        svelte({
+            preprocess: sveltePreprocess({ postcss: true }),
+            dev: !prod,
+            css: css => {
+                css.write('public/bundle.css')
+            },
+        }),
+        resolve({
+            dedupe: ['svelte', 'svelte/internal'],
+        }),
+        commonjs(),
+        replace({
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+        }),
+        !prod && livereload(),
+        !!prod && terser(),
+    ],
+}

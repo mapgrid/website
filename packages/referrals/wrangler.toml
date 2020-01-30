@@ -1,0 +1,6 @@
+name = "signup"
+type = "javascript"
+workers_dev = true
+kv-namespaces = [
+     { binding = "REFERRALS", id = "c90cfb78d84b4daa8eb3ee464387c97c" }
+]

@@ -1,0 +1,56 @@
+module.exports = {
+    theme: {
+        extend: {
+            colors: {
+                'alpha-dark': {
+                    '100': 'hsla(0,0%,0%,0.1)',
+                    '200': 'hsla(0,0%,0%,0.2)',
+                    '300': 'hsla(0,0%,0%,0.3)',
+                    '400': 'hsla(0,0%,0%,0.4)',
+                    '500': 'hsla(0,0%,0%,0.5)',
+                    '600': 'hsla(0,0%,0%,0.6)',
+                    '700': 'hsla(0,0%,0%,0.7)',
+                    '800': 'hsla(0,0%,0%,0.8)',
+                    '900': 'hsla(0,0%,0%,0.9)',
+                },
+                'alpha-light': {
+                    '100': 'hsla(0,0%,100%,0.9)',
+                    '200': 'hsla(0,0%,100%,0.8)',
+                    '300': 'hsla(0,0%,100%,0.7)',
+                    '400': 'hsla(0,0%,100%,0.6)',
+                    '500': 'hsla(0,0%,100%,0.5)',
+                    '600': 'hsla(0,0%,100%,0.4)',
+                    '700': 'hsla(0,0%,100%,0.3)',
+                    '800': 'hsla(0,0%,100%,0.2)',
+                    '900': 'hsla(0,0%,100%,0.1)',
+                },
+            },
+            fontFamily: {
+                header: [
+                    'brandon-grotesque',
+                    'Helvetica-Neue',
+                    'Helvetica',
+                    'Arial',
+                    'san-serif',
+                ],
+                ui: [
+                    'Inter',
+                    '-apple-system',
+                    'BlinkMacSystemFont',
+                    '"Segoe UI"',
+                    'Roboto',
+                    '"Helvetica Neue"',
+                    'Arial',
+                    '"Noto Sans"',
+                    'sans-serif',
+                    '"Apple Color Emoji"',
+                    '"Segoe UI Emoji"',
+                    '"Segoe UI Symbol"',
+                    '"Noto Color Emoji"',
+                ],
+            },
+        },
+    },
+    variants: {},
+    plugins: [],
+}
