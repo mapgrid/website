@@ -1111,6 +1111,16 @@
     svelte "^3.18.1"
     xstate "^4.7.7"
 
+"@mapgrid/elements@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.5.tgz#1e6cc7e8e26b010ed80d46a78d07023f66b00882"
+  integrity sha512-ZSDcSFv2VN0oEXxTGJOHt+j6luqdUQ3fACMklP1n/eW5P9JSbUFJ04rSzJqLggPHyYCgol0S+tfYosIxc5CvWg==
+  dependencies:
+    nanoid "^2.1.10"
+    qs "^6.9.1"
+    svelte "^3.18.1"
+    xstate "^4.7.7"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"

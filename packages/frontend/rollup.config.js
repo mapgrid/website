@@ -7,6 +7,7 @@ import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 
 const prod = process.env.NODE_ENV === 'production'
+const watch = process.env.ROLLUP_WATCH
 
 export default {
     input: 'src/index.js',
@@ -30,7 +31,7 @@ export default {
         replace({
             'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
         }),
-        !prod && livereload(),
+        !!watch && livereload(),
         !!prod && terser(),
     ],
 }

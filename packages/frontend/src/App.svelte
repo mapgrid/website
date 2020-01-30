@@ -1,5 +1,8 @@
 <style global>
+  /* purgecss start ignore */
   @tailwind base;
+  /* purgecss end ignore */
+
   @tailwind components;
   @tailwind utilities;
 
@@ -29,7 +32,7 @@
 
 <svelte:component this={page} params={params} />
 <Analytics
-    siteId="demo"
+    siteId="mapgrid"
     trackerUrl="https://analytics.mapgrid.workers.dev/"
     path={path}
 />
