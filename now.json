@@ -4,9 +4,7 @@
     "builds": [
         { "src": "packages/frontend/package.json", "use": "@now/static-build" }
     ],
-    "rewrites": [
-        { "source": "/(.*)", "destination": "packages/frontend/public/$1" }
-    ],
+    "rewrites": [{ "source": "/(.*)", "destination": "packages/frontend/$1" }],
     "build": {
         "env": {
             "NODE_ENV": "production",
