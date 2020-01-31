@@ -7,7 +7,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/packages/frontend/public/$1"
+            "dest": "packages/frontend/package.json"
         }
     ],
     "build": {
