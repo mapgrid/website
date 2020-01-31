@@ -26,3 +26,4 @@ jobs:
                   NOW_TOKEN: ${{ secrets.NOW_TOKEN }}
                   REFERRALS_ORIGIN: https://mapgrid.org
                   REFERRALS_ENDPOINT: https://signup.mapgrid.workers.dev/
+                  ANALYTICS_ENDPOINT: https://analytics.mapgrid.workers.dev/
