@@ -4,11 +4,8 @@
     "builds": [
         { "src": "packages/frontend/package.json", "use": "@now/static-build" }
     ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "packages/frontend/package.json"
-        }
+    "rewrites": [
+        { "source": "/(.*)", "destination": "packages/frontend/public/$1" }
     ],
     "build": {
         "env": {
