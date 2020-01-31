@@ -9,7 +9,7 @@
     }
 
     img {
-        @apply mx-auto w-32 mb-8;
+        @apply mx-auto w-32 h-32 mb-8;
         @apply rounded-full border-4;
         @apply bg-alpha-light-100 border-alpha-light-100;
     }
@@ -32,7 +32,7 @@
     }
 
     p {
-        @apply mb-4;
+        @apply mb-8;
         @apply text-alpha-dark-600;
     }
 </style>
@@ -43,7 +43,7 @@
 
 <main>
     <div class="wrapper">
-        <img src="/logo-512.png" alt="MapGrid" />
+        <img src="/images/logo-512.png" alt="MapGrid" />
         <h1>MapGrid is coming</h1>
         <div class="inner">
             <h4>Sign up for early access</h4>
