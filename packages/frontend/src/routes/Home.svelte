@@ -51,7 +51,7 @@
             <Signup
                 title="Enter your email"
                 button="Sign Up"
-                endpoint="https://signup.mapgrid.workers.dev/"
+                endpoint={process.env.REFERRALS_ENDPOINT}
                 url="https://mapgrid.org"
             />
         </div>

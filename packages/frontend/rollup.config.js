@@ -32,6 +32,12 @@ export default {
         commonjs(),
         replace({
             'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+            'process.env.REFERRALS_ENDPOINT': JSON.stringify(
+                process.env.REFERRALS_ENDPOINT,
+            ),
+            'process.env.ANALYTICS_ENDPOINT': JSON.stringify(
+                process.env.ANALYTICS_ENDPOINT,
+            ),
         }),
         !!watch && livereload(),
         !!prod && terser(),

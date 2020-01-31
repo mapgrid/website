@@ -33,6 +33,6 @@
 <svelte:component this={page} params={params} />
 <Analytics
     siteId="mapgrid"
-    trackerUrl="https://analytics.mapgrid.workers.dev/"
+    trackerUrl={process.env.ANALYTICS_ENDPOINT}
     path={path}
 />

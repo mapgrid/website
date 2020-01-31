@@ -25,3 +25,4 @@ jobs:
                   CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
                   NOW_TOKEN: ${{ secrets.NOW_TOKEN }}
                   REFERRALS_ORIGIN: https://mapgrid.org
+                  REFERRALS_ENDPOINT: https://signup.mapgrid.workers.dev/

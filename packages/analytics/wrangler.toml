@@ -4,3 +4,9 @@ workers_dev = true
 kv-namespaces = [
      { binding = "ANALYTICS", id = "9e70f4062cfa431db9408fc1a971a946" }
 ]
+
+[env.dev]
+name = "analytics-dev"
+kv-namespaces = [
+     { binding = "ANALYTICS", id = "932aa2a2aa3e4cd4958629c160e283ae" }
+]
