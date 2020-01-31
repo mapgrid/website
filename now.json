@@ -12,7 +12,9 @@
     ],
     "build": {
         "env": {
-            "NODE_ENV": "production"
+            "NODE_ENV": "production",
+            "REFERRALS_ENDPOINT": "https://signup.mapgrid.workers.dev/",
+            "ANALYTICS_ENDPOINT": "https://analytics.mapgrid.workers.dev/"
         }
     }
 }

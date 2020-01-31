@@ -20,8 +20,6 @@ jobs:
               env:
                   NODE_ENV: production
                   REFERRALS_ORIGIN: https://mapgrid.org
-                  REFERRALS_ENDPOINT: https://signup.mapgrid.workers.dev/
-                  ANALYTICS_ENDPOINT: https://analytics.mapgrid.workers.dev/
             - run: yarn run deploy
               env:
                   CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
