@@ -18,7 +18,7 @@
         "format": "prettier --write \"**/*.js\" \"**/*.json\"",
         "lint": "eslint .",
         "test": "jest && yarn run lint",
-        "deploy": "lerna run deploy && now --prod --token $NOW_TOKEN"
+        "deploy": "lerna run deploy"
     },
     "workspaces": [
         "packages/*"
