@@ -1,3 +1,4 @@
+import dotenv from 'dotenv'
 import replace from '@rollup/plugin-replace'
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
@@ -6,6 +7,7 @@ import sveltePreprocess from 'svelte-preprocess'
 import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 
+dotenv.config({ path: '../../.env' })
 const prod = process.env.NODE_ENV === 'production'
 const watch = process.env.ROLLUP_WATCH
 

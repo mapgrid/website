@@ -47,7 +47,7 @@
         <h1>MapGrid is coming</h1>
         <div class="inner">
             <h4>Sign up for early access</h4>
-            <p>Invite friends with your unique link to move up the list.</p>
+            <p>Get on our pre-launch waitlist by signing up below, and we'll give you early access when we launch.</p>
             <Signup
                 title="Enter your email"
                 button="Sign Up"
