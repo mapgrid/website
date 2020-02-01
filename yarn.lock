@@ -1101,10 +1101,10 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@mapgrid/elements@^0.0.19":
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.19.tgz#ef0db43c6c7f2ead1f3fb8d31b401411f814879c"
-  integrity sha512-Tlurm1Zzq+Ko5tJ2F31dE51zQ3nAkoq5lI0cCrBwCiVw/P7mKFWeY43K3dBg9HtsKp3r4Fvm6+Yqry0KEvGu+g==
+"@mapgrid/elements@^0.0.21":
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.21.tgz#488e992798c9ca079049e6025c150b3716d44bfa"
+  integrity sha512-CR3HBK8Ff86hQjwz+J0Qyqwp3W+rsWWJ7GJP3Bli4HGTeZkMhhtuY9+EcIqggKafl43dMO80pVdKH8MOeqcDRQ==
   dependencies:
     qs "^6.9.1"
     svelte "^3.18.1"
