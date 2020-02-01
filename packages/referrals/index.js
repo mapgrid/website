@@ -1,5 +1,5 @@
 /* global REFERRALS */
-import createReferrals from '@mapgrid/elements/referrals/api'
+import createReferrals from '@mapgrid/elements/referrals/worker'
 
 createReferrals({
     store: REFERRALS,
