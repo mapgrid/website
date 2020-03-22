@@ -1099,13 +1099,13 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@mapgrid/elements@^0.0.51":
-  version "0.0.51"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.51.tgz#082c76d205904cb876b86c9875d99776101d9b14"
-  integrity sha512-x5BdGFZr6VD+jj30udurrjzVbsIWep24MWL9rdYbEh5XNPMYL0uqaUa80Qh7xyrb+aW5apIPz68fpuBjistXBg==
+"@mapgrid/elements@^0.0.52":
+  version "0.0.52"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.52.tgz#632ddd4e0f34951510b92119f2ec2a68aa22645a"
+  integrity sha512-JozIGeMdrJhacymMmpxtGMGVo9mieoBkrSTi9RgCShYyb09LZOnSkcar6XDQT1A/dZsRawx+lRx0tkH0sDMXvw==
   dependencies:
     nanoid "^2.1.11"
-    qs "^6.9.1"
+    qs "^6.9.2"
     svelte "^3.20.1"
     xstate "^4.8.0"
 
@@ -6177,10 +6177,10 @@ q@^1.5.1:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qs@^6.9.1:
-  version "6.9.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.1.tgz#20082c65cb78223635ab1a9eaca8875a29bf8ec9"
-  integrity sha512-Cxm7/SS/y/Z3MHWSxXb8lIFqgqBowP5JMlTUFyJN88y0SGQhVmZnqFK/PeuMX9LzUyWsqqhNxIyg0jlzq946yA==
+qs@^6.9.2:
+  version "6.9.2"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.2.tgz#a27b695006544a04bf0e6c6a7e8120778926d5bd"
+  integrity sha512-2eQ6zajpK7HwqrY1rRtGw5IZvjgtELXzJECaEDuzDFo2jjnIXpJSimzd4qflWZq6bLLi+Zgfj5eDrAzl/lptyg==
 
 qs@~6.5.2:
   version "6.5.2"
