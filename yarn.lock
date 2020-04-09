@@ -1152,10 +1152,10 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@mapgrid/elements@^0.0.81":
-  version "0.0.81"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.81.tgz#a2530d2e84b1854b7aa3daec8c7d1fd15518a037"
-  integrity sha512-xvZ8tPqz6jee31BMtcmphOlGeYLGkgsjHAGBspTjbZfzXk9C/m4QBrBChVAbrLAHLrOIQoKIG30dk9Kg4kbdSQ==
+"@mapgrid/elements@^0.0.82":
+  version "0.0.82"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.82.tgz#05078534ed11cde76f626bc99fabe79188b7acec"
+  integrity sha512-wCKY25DM4V4n6NbuUwwD6yjV1PycGB2YNQAQ+JeffQ9zyLgeWtlKsSAFkE0bDOZ10ksjzgl+REKPjQMOd+DjNQ==
   dependencies:
     nanoid "^3.0.2"
     qs "^6.9.3"
