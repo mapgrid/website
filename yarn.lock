@@ -1192,14 +1192,14 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@mapgrid/elements@^0.0.116":
-  version "0.0.116"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.116.tgz#531da591d0d5c1d8f80912d863530ec460cea3e1"
-  integrity sha512-lQxUL3PzE+a7E4e8RPZes4BFMwLeYdtKT2j6Lxxg1wsYfWZ3bQiwzJOwvozMIi6QoiiKEXIBLNlm27zDaH5MwQ==
+"@mapgrid/elements@^0.0.120":
+  version "0.0.120"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.120.tgz#c463c13ef8f4c1c3a23afb57e7276fea538c2c0e"
+  integrity sha512-bGoIR5o091+1Eorl0HuJNdBSHBB8rd1xQ7qeHKjGY8/gRVrYIKeVIDkni4wrWblGwZ4XuioVKXpvIuO+RWU7Bw==
   dependencies:
-    nanoid "^3.1.3"
+    nanoid "^3.1.4"
     qs "^6.9.4"
-    svelte "^3.22.1"
+    svelte "^3.22.2"
     xstate "^4.9.1"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -5435,10 +5435,10 @@ mz@^2.5.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nanoid@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.3.tgz#b2bcfcfda4b4d6838bc22a0c8dd3c0a17a204c20"
-  integrity sha512-Zw8rTOUfh6FlKgkEbHiB1buOF2zOPOQyGirABUWn+9Z7m9PpyoLVkh6Ksc53vBjndINQ2+9LfRPaHxb/u45EGg==
+nanoid@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.4.tgz#0c39d96aaf6317b580efb6c59903b95ada1b2ac9"
+  integrity sha512-ycTkPSwmUmEdtvPPuszyOCm+Fzw+/AngWkaJ52oZ6l4Mdhh/yNNrWflAzrXbSn3v1mL+GBl6qegU6w6ml5JSWw==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -7419,10 +7419,10 @@ svelte-preprocess@^3.3.1:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.18.1, svelte@^3.22.1:
-  version "3.22.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.22.1.tgz#03bf93c0d3eb501f8793634b89a1b47d0774d616"
-  integrity sha512-2JwAFWxt188wIIKxuoD0iuVYctGSZoMLQ+w1D8vE5yY8pN99ZU2rdV8nAfYSiQH9FQDWZyEuyUuFGWKWPmwizg==
+svelte@^3.18.1, svelte@^3.22.2:
+  version "3.22.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.22.2.tgz#06585244191bf7a112af2a0025610f33d77c3715"
+  integrity sha512-DxumO0+vvHA6NSc2jtVty08I8lFI43q8P2zX6JxZL8J1kqK5NVjad6TRM/twhnWXC+QScnwkZ15O6X1aTsEKTA==
 
 symbol-tree@^3.2.2:
   version "3.2.4"
