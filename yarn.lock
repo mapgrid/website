@@ -228,9 +228,9 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@cloudflare/wrangler@^1.6.0":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@cloudflare/wrangler/-/wrangler-1.9.1.tgz#2108854e1252558a512c3b653a579363a6f33a98"
-  integrity sha512-XIZRFLsCEQSEyFppMcFIxNMc3UEJ8tAEQ5IWua1x3TH+R9Lr/ar+xnX1YoI7E2eOneWQl43vb6hCqg7Bm3vdgA==
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@cloudflare/wrangler/-/wrangler-1.9.2.tgz#626e31d1b50b08cdc70d1662781aaf20f3af1c89"
+  integrity sha512-gqw/Y3oa75xKF8nTsXrzipKL5Sm5c6RgDhd7byzbKf9pWQH7sB0kQ+BrhY0wLeFPeXTrPq78TWBNxAXB2Tizsw==
   dependencies:
     binary-install "0.0.1"
 
