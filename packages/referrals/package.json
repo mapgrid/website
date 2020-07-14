@@ -9,7 +9,7 @@
     },
     "devDependencies": {
         "@cloudflare/wrangler": "^1.6.0",
-        "@rollup/plugin-commonjs": "^13.0.0",
+        "@rollup/plugin-commonjs": "^14.0.0",
         "@rollup/plugin-node-resolve": "^8.0.0",
         "@rollup/plugin-replace": "^2.3.0",
         "dotenv": "^8.2.0",
