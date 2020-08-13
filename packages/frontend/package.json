@@ -11,7 +11,7 @@
     "dependencies": {
         "@fullhuman/postcss-purgecss": "^2.0.5",
         "@mapgrid/elements": "^0.0.219",
-        "@rollup/plugin-commonjs": "^14.0.0",
+        "@rollup/plugin-commonjs": "^15.0.0",
         "@rollup/plugin-node-resolve": "^8.0.0",
         "@rollup/plugin-replace": "^2.3.0",
         "dotenv": "^8.2.0",
