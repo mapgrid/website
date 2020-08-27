@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "@fullhuman/postcss-purgecss": "^2.0.5",
-        "@mapgrid/elements": "^0.0.234",
+        "@mapgrid/elements": "^0.0.235",
         "@rollup/plugin-commonjs": "^15.0.0",
         "@rollup/plugin-node-resolve": "^9.0.0",
         "@rollup/plugin-replace": "^2.3.0",
