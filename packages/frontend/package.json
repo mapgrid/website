@@ -9,7 +9,7 @@
         "serve": "sirv public --single --dev"
     },
     "dependencies": {
-        "@fullhuman/postcss-purgecss": "^2.0.5",
+        "@fullhuman/postcss-purgecss": "^3.0.0",
         "@mapgrid/elements": "^0.0.252",
         "@rollup/plugin-commonjs": "^15.0.0",
         "@rollup/plugin-node-resolve": "^9.0.0",
