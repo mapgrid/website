@@ -1227,10 +1227,10 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@mapgrid/elements@^0.0.319":
-  version "0.0.319"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.319.tgz#b24fcf67691045744edfb74a39c511dd425f6732"
-  integrity sha512-0aFMJC2HczS5Nh+kjl76MCnSLsFq6HpJ2U5UEYSBg+UhLTgLcSwMiHVV2YOPEx3qtQ3lcl1u4YaHcPSWh482gw==
+"@mapgrid/elements@^0.0.320":
+  version "0.0.320"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.320.tgz#1e5ef98444c8ff60dadddd6091fdc0ba07f95e2b"
+  integrity sha512-9WbGixlzGSARkycGayk9Y+SYZyzKF2aSNdTSXGTO8z9CV2YIrZr2rNZc0lyMrH9D/BFu/AxLsMBkVQnGoaGE5Q==
   dependencies:
     nanoid "^3.1.20"
     qs "^6.9.4"
