@@ -1147,12 +1147,12 @@
     npmlog "^4.1.2"
     write-file-atomic "^3.0.3"
 
-"@mapgrid/elements@^0.0.392":
-  version "0.0.392"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.392.tgz#f92dc251a22445789efafc951138c30d97fb4639"
-  integrity sha512-egAuo+Suy48mLK+Y/rFKNOpUmn+J7B3EG3JvNCZhk9amEhx42xYeSpRgO6xtI4FRIo4go0yimmMaG20sqWnRSQ==
+"@mapgrid/elements@^0.0.393":
+  version "0.0.393"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.393.tgz#0c682b5ed5ad49b1c8c62f8559f4420a894e7f07"
+  integrity sha512-1VusyeHQQ0XDDGuG2wp69VOmfu701iuv3uU1jxBBorHpUJJvIZ87vn0ikpb8E1mWPY7EZOtyEsX7Y5I2b/TOsw==
   dependencies:
-    nanoid "^3.1.20"
+    nanoid "^3.1.21"
     qs "^6.9.6"
     svelte "^3.35.0"
     xstate "^4.16.2"
@@ -5734,10 +5734,10 @@ mute-stream@0.0.8, mute-stream@~0.0.4:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-nanoid@^3.1.20:
-  version "3.1.20"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
-  integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
+nanoid@^3.1.20, nanoid@^3.1.21:
+  version "3.1.21"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.21.tgz#25bfee7340ac4185866fbfb2c9006d299da1be7f"
+  integrity sha512-A6oZraK4DJkAOICstsGH98dvycPr/4GGDH7ZWKmMdd3vGcOurZ6JmWFUt0DA5bzrrn2FrUjmv6mFNWvv8jpppA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
