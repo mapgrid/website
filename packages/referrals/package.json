@@ -5,7 +5,7 @@
     "license": "MIT",
     "main": "dist/bundle.js",
     "dependencies": {
-        "@mapgrid/elements": "^0.0.395"
+        "@mapgrid/elements": "^0.0.396"
     },
     "devDependencies": {
         "@cloudflare/wrangler": "^1.6.0",
