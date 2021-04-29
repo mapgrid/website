@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: master
+  ignore:
+  - dependency-name: tailwindcss
+    versions:
+    - 2.0.3
+    - 2.0.4
+    - 2.1.0
+    - 2.1.1
+  - dependency-name: xstate
+    versions:
+    - 4.18.0
