@@ -1313,15 +1313,15 @@
     npmlog "^4.1.2"
     write-file-atomic "^3.0.3"
 
-"@mapgrid/elements@^0.0.458":
-  version "0.0.458"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.458.tgz#85ef52cd9e30500d015cc8935729e519555575bf"
-  integrity sha512-Fz59Kz53eC0/zBqRMM2EUS8GhCXpjqAtD6PfeulYSrykRFxNGq7iBBA4KtJsA+IpUVuee8urEl8RGEBngnXI8g==
+"@mapgrid/elements@^0.0.459":
+  version "0.0.459"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.459.tgz#62ffa9c6b27b4d2350986a5434c13158681c55c4"
+  integrity sha512-jYVa5sf1VHvk763cjfZhRAmlguqGJcmkIIPmDfwAbaETUSCgEOv/9D2UgniP6m9/ebZfVpqAvS3mlEHsfu1Cvw==
   dependencies:
     nanoid "^3.1.23"
     qs "^6.10.1"
     svelte "^3.38.2"
-    xstate "^4.19.1"
+    xstate "^4.19.2"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -8302,7 +8302,7 @@ xmlchars@^2.2.0:
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
 
-xstate@^4.19.1, xstate@^4.7.7:
+xstate@^4.19.2, xstate@^4.7.7:
   version "4.19.2"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.19.2.tgz#58ef6fc71737c76750ec61c5ff8b000101895d8a"
   integrity sha512-eWI6kOHavcqhu1ACCmRowYGaQnH0KGvBoGg3lqmle9ZYyVWa2ZcVTgZlsK7o419/jw9gWX2LYmYGkm9w/VoXMA==
