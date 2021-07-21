@@ -1312,14 +1312,14 @@
     npmlog "^4.1.2"
     write-file-atomic "^3.0.3"
 
-"@mapgrid/elements@^0.0.503":
-  version "0.0.503"
-  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.503.tgz#d0b083da0c9928f4d8278065cdf15be2dbfdecdc"
-  integrity sha512-o4CpA5gID+X7E4zqRdB4LqN5Ey4ENBN5e3PRbcsSCnicIwwgsKt9k6qQMo+GCT7dXYiH7cSTl5jL6RlpKPF8mw==
+"@mapgrid/elements@^0.0.504":
+  version "0.0.504"
+  resolved "https://registry.yarnpkg.com/@mapgrid/elements/-/elements-0.0.504.tgz#28396b8b324e44a32bede3105da26b216097e6f9"
+  integrity sha512-5pBWWpA1wC0gkzfhOMUqcVxG8Q0fOiLJ4/I6E89Ux5KajKoz0fh6gSxCl5X2P0LjHPs5HFXhDzUaDb195U2WNQ==
   dependencies:
     nanoid "^3.1.23"
     qs "^6.10.1"
-    svelte "^3.38.3"
+    svelte "^3.39.0"
     xstate "^4.23.0"
 
 "@nodelib/fs.scandir@2.1.4":
@@ -7579,7 +7579,7 @@ svelte-preprocess@^4.0.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.18.1, svelte@^3.38.3:
+svelte@^3.18.1, svelte@^3.39.0:
   version "3.39.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.39.0.tgz#35d1f18ea9be9109ff7cb54c29a913eddd151453"
   integrity sha512-dcJCongL0cRkZWe9q+fde0T4HX8PksBywz2+EGDVIrdYdJaxTzrJu0RVeuDtL8Mx2hs4yn3W8zKPScuzG63hTg==
